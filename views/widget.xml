@@ -1,0 +1,30 @@
+<Alloy>
+
+<Label id="lock_icon" >\ueb16</Label>
+
+
+ <View id="oks" ></View>
+  <View id="mask">
+ 			<View class="row">
+      <View id="btn_1" class="cell" n="1"><Label class="btn_lbl" text="1"/><Label class="btn_w" text=""/></View>
+      <View id="btn_2" class="cell" n="2"><Label class="btn_lbl" text="2"/><Label class="btn_w" text="A B C"/></View>
+      <View id="btn_3" class="cell" n="3"><Label class="btn_lbl" text="3"/><Label class="btn_w" text="D E F"/></View>
+			</View>
+			<View class="row">
+			<View id="btn_4" class="cell" n="4"><Label class="btn_lbl" text="4"/><Label class="btn_w" text="G H I"/></View>
+      <View id="btn_5" class="cell" n="5"><Label class="btn_lbl" text="5"/><Label class="btn_w" text="J K L"/></View>
+      <View id="btn_6" class="cell" n="6"><Label class="btn_lbl" text="6"/><Label class="btn_w" text="M N O"/></View>
+			</View>
+			<View class="row">
+			<View id="btn_7" class="cell" n="7"><Label class="btn_lbl" text="7"/><Label class="btn_w" text="P Q R S"/></View>
+      <View id="btn_8" class="cell" n="8"><Label class="btn_lbl" text="8"/><Label class="btn_w" text="T U V"/></View>
+      <View id="btn_9" class="cell" n="9"><Label class="btn_lbl" text="9"/><Label class="btn_w" text="W X Y Z"/></View>
+		</View>
+		<View class="row">
+			<View  class="cell" backgroundColor="#ccc"></View>
+			<View id="btn_0" class="cell" n="0"><Label class="btn_lbl" text="0" top="10"/><Label class="btn_w" text=""/></View>
+      <View  class="cell" id="deleteBtn" backgroundColor="#ccc"><Widget src="ti.ux.iconfont" color="#333" icon="f060" top="10" size="25" /></View>
+			</View>
+
+  </View>
+</Alloy>

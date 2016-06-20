@@ -1,0 +1,62 @@
+
+"#oks":{
+  	height: Ti.UI.SIZE,
+		width: Ti.UI.SIZE,
+	 //	backgroundColor: "green",
+		 layout: "horizontal",
+		top:150
+
+}
+
+"#lock_icon":{
+  top: 30,
+	width: Titanium.UI.SIZE,
+	height: Titanium.UI.SIZE,
+	font: {fontSize: 100, fontFamily: 'icomoon'},
+	color: '#aaacb1',
+}
+
+"#mask":{
+	width: Ti.UI.FILL,
+	height: 200,
+	backgroundColor: '#c6cad0',
+  bottom: 0,//-200
+	layout: "vertical",
+}
+".row":{
+
+  	width: Ti.UI.FILL,
+    height: 50,
+    top:1,
+    layout: "horizontal"
+}
+".cell":{
+	width: "32.95%",
+	height: Ti.UI.FILL,
+  backgroundColor: "#fff",
+	left:1
+}
+
+
+".btn_lbl":{
+	touchEnabled: false,
+	color: "#333",
+	top: 5,
+	textAlign: 'center',
+	font:{
+
+		fontSize: 25,
+		fontWeight: 'bold'
+	}
+}
+".btn_w":{
+	touchEnabled: false,
+	color: "#333",
+	bottom: 2,
+	textAlign: 'center',
+	font:{
+
+		fontSize: 8.5,
+		fontWeight: 'bold'
+	}
+}
